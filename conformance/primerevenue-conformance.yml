@@ -1,0 +1,22 @@
+generated: '2026-07-20'
+method: searched
+source: https://primerevenue.com/primerevenue-security-compliance/
+standards:
+- id: soc-1-type-2
+  conforms: true
+  evidence: "PrimeRevenue is SOC 1 Type 2 compliant, examined annually by a third-party auditor against AICPA standards."
+- id: soc-2-type-2
+  conforms: true
+  evidence: "PrimeRevenue is SOC 2 Type 2 compliant, examined annually by a third-party auditor against AICPA standards."
+- id: iso-27001
+  conforms: true
+  evidence: "ISO/IEC 27001:2013 certified (certificate number 1966371-2, via Schellman)."
+- id: gdpr
+  conforms: true
+  evidence: "Maintains compliance with EU GDPR data protection regulations."
+notes: >-
+  Compliance posture captured from the PrimeRevenue Security & Compliance page. PrimeRevenue publishes
+  no public OpenAPI, so no spec-derived cross-cutting standards (oauth2, rfc9457, pagination, etc.)
+  could be asserted. Additional controls named on the page: annual third-party penetration testing,
+  24/7 security monitoring, encryption in transit and at rest, vulnerability management, and annual
+  business continuity plan testing.

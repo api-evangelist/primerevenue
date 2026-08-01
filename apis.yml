@@ -1,8 +1,26 @@
 aid: primerevenue
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/primerevenue.png
 name: PrimeRevenue
-description: PrimeRevenue is a company surfaced as a portfolio company of battery-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  PrimeRevenue is a global financial technology company providing working capital and B2B payment
+  solutions through a bank-agnostic, ERP-integrated platform. Its offerings include Supply Chain
+  Finance (buyers extend payment terms while suppliers are paid early), Receivables Finance (suppliers
+  sell invoices for early payment without buyer disclosure), Dynamic Discounting (early payment at
+  variable discount rates), and Payments as a Service (a modern B2B payment layer). The platform
+  manages more than $25B in daily assets, has accelerated over 12.5M invoices, and supports 30+
+  languages. PrimeRevenue does not publish a public developer portal or API documentation; this
+  profile captures its corporate, security, and compliance surface. Backed by Battery Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/primerevenue/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +30,45 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Supply Chain Finance
+- Working Capital
+- B2B Payments
+- Receivables Finance
+- Dynamic Discounting
+- Fintech
+- Financial Services
 apis: []
+common:
+- type: DomainSecurity
+  url: security/primerevenue-domain-security.yml
+- type: Website
+  url: https://primerevenue.com/
+- type: Blog
+  url: https://primerevenue.com/resources/blog/
+- type: Pricing
+  url: https://primerevenue.com/pricing/
+- type: PrivacyPolicy
+  url: https://primerevenue.com/privacy/
+- type: Login
+  url: https://primerevenue.com/login/
+- type: SignUp
+  url: https://primerevenue.com/request-demo/
+- type: Support
+  url: https://primerevenue.com/contact/
+- type: Compliance
+  url: https://primerevenue.com/primerevenue-security-compliance/
+- type: Conformance
+  url: conformance/primerevenue-conformance.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
